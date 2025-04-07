@@ -1,0 +1,226 @@
+{
+    "title": "Introduction to Computer Networks - Unit 1 Quiz",
+    "quiz": [
+      {
+        "difficulty": "easy",
+        "question": "What is a network?",
+        "options": {
+          "a": "A group of isolated computers",
+          "b": "Two or more computers connected for sharing resources",
+          "c": "A single computer system",
+          "d": "A computer without internet"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which of the following is NOT a communication link?",
+        "options": {
+          "a": "Twisted pair",
+          "b": "Optical fiber",
+          "c": "Modem",
+          "d": "Coaxial cable"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the purpose of protocols in networking?",
+        "options": {
+          "a": "To format hard drives",
+          "b": "To regulate RAM usage",
+          "c": "To enable communication between devices",
+          "d": "To design web pages"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which network type connects devices over a small geographic area like a home or office?",
+        "options": {
+          "a": "WAN",
+          "b": "LAN",
+          "c": "MAN",
+          "d": "SAN"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which layer in the OSI model is responsible for physical connections?",
+        "options": {
+          "a": "Data Link Layer",
+          "b": "Network Layer",
+          "c": "Physical Layer",
+          "d": "Application Layer"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which topology connects every device to every other device?",
+        "options": {
+          "a": "Bus",
+          "b": "Ring",
+          "c": "Star",
+          "d": "Mesh"
+        },
+        "answer": "d"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What is a primary disadvantage of a bus topology?",
+        "options": {
+          "a": "High cost",
+          "b": "Difficult to add new devices",
+          "c": "Single point of failure",
+          "d": "All of the above"
+        },
+        "answer": "d"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In a peer-to-peer network:",
+        "options": {
+          "a": "One central server controls all devices",
+          "b": "All devices act as both clients and servers",
+          "c": "Only servers can share resources",
+          "d": "Only clients send requests"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which network layer is responsible for error-free delivery from node to node?",
+        "options": {
+          "a": "Network Layer",
+          "b": "Data Link Layer",
+          "c": "Session Layer",
+          "d": "Application Layer"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which OSI layer handles data encryption and decryption?",
+        "options": {
+          "a": "Transport",
+          "b": "Presentation",
+          "c": "Application",
+          "d": "Session"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which topology uses the least cabling?",
+        "options": {
+          "a": "Mesh",
+          "b": "Ring",
+          "c": "Bus",
+          "d": "Star"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In the OSI model, which layer is responsible for routing data?",
+        "options": {
+          "a": "Network Layer",
+          "b": "Data Link Layer",
+          "c": "Physical Layer",
+          "d": "Presentation Layer"
+        },
+        "answer": "a"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What device operates at the Physical Layer?",
+        "options": {
+          "a": "Router",
+          "b": "Switch",
+          "c": "Hub",
+          "d": "Firewall"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which layer of OSI handles end-to-end communication?",
+        "options": {
+          "a": "Transport Layer",
+          "b": "Session Layer",
+          "c": "Network Layer",
+          "d": "Presentation Layer"
+        },
+        "answer": "a"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which protocol defines rules for communication between sender and receiver?",
+        "options": {
+          "a": "Firewall",
+          "b": "Modem",
+          "c": "Protocol",
+          "d": "Port"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "hard",
+        "question": "What is the number of cables required in a mesh network with 5 computers?",
+        "options": {
+          "a": "5",
+          "b": "10",
+          "c": "15",
+          "d": "20"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "hard",
+        "question": "Which sublayer of the Data Link Layer manages access to the physical medium?",
+        "options": {
+          "a": "LLC",
+          "b": "MAC",
+          "c": "IP",
+          "d": "TCP"
+        },
+        "answer": "b"
+      },
+      {
+        "difficulty": "hard",
+        "question": "Which layer in the OSI model deals with transmission modes like simplex and duplex?",
+        "options": {
+          "a": "Network",
+          "b": "Transport",
+          "c": "Session",
+          "d": "Physical"
+        },
+        "answer": "d"
+      },
+      {
+        "difficulty": "hard",
+        "question": "Which type of network is used to connect storage devices?",
+        "options": {
+          "a": "PAN",
+          "b": "VPN",
+          "c": "SAN",
+          "d": "CAN"
+        },
+        "answer": "c"
+      },
+      {
+        "difficulty": "hard",
+        "question": "Which OSI layer ensures bit-level synchronization using a clock?",
+        "options": {
+          "a": "Session",
+          "b": "Data Link",
+          "c": "Transport",
+          "d": "Physical"
+        },
+        "answer": "d"
+      }
+    ]
+  }
+  
