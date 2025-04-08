@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the core mechanism used by the Transformer model to establish dependencies between input and output elements?",
+        "options": {
+            "A": "Recurrent connections",
+            "B": "Convolutional layers",
+            "C": "Attention mechanism",
+            "D": "Position-wise feed-forward networks"
+        },
+        "answer": "C",
+        "difficulty": 1
+    },
+    {
+        "question": "How does the Transformer model handle the issue of sequential computation, which limits parallelization in recurrent models?",
+        "options": {
+            "A": "By using convolutional layers with varying kernel sizes",
+            "B": "By relying entirely on an attention mechanism",
+            "C": "By employing a combination of recurrent and convolutional layers",
+            "D": "By using a tree-structured network architecture"
+        },
+        "answer": "B",
+        "difficulty": 2
+    },
+    {
+        "question": "What type of attention mechanism is specifically used in the Transformer model?",
+        "options": {
+            "A": "Additive attention",
+            "B": "Scaled Dot-Product Attention",
+            "C": "Location-based attention",
+            "D": "General attention"
+        },
+        "answer": "B",
+        "difficulty": 1
+    },
+    {
+        "question": "In the Transformer's encoder-decoder attention, where do the queries originate from?",
+        "options": {
+            "A": "The output of the encoder",
+            "B": "The previous decoder layer",
+            "C": "The input embeddings",
+            "D": "The positional encodings"
+        },
+        "answer": "B",
+        "difficulty": 2
+    },
+    {
+        "question": "What is the purpose of the masking mechanism in the decoder's self-attention?",
+        "options": {
+            "A": "To improve computational efficiency",
+            "B": "To prevent positions from attending to subsequent positions, maintaining auto-regressive property",
+            "C": "To allow the model to focus on specific parts of the input sequence",
+            "D": "To handle variable-length input sequences"
+        },
+        "answer": "B",
+        "difficulty": 3
+    },
+    {
+        "question": "What is the function of the position-wise feed-forward networks in the Transformer's encoder and decoder layers?",
+        "options": {
+            "A": "To capture long-range dependencies between input and output elements",
+            "B": "To apply a non-linear transformation to each position separately and identically",
+            "C": "To combine information from different attention heads",
+            "D": "To generate the positional encodings"
+        },
+        "answer": "B",
+        "difficulty": 2
+    },
+    {
+        "question": "How does multi-head attention enhance the model's ability to process information?",
+        "options": {
+            "A": "By increasing the depth of the network",
+            "B": "By allowing the model to attend to information from different representation subspaces at different positions",
+            "C": "By reducing the computational complexity of the attention mechanism",
+            "D": "By improving the model's ability to handle variable-length sequences"
+        },
+        "answer": "B",
+        "difficulty": 3
+    },
+    {
+        "question": "Why does the Transformer model use scaled dot-product attention instead of regular dot-product attention?",
+        "options": {
+            "A": "To prevent the softmax function from being pushed into regions with extremely small gradients",
+            "B": "To increase the computational efficiency of the attention mechanism",
+            "C": "To allow the model to learn more complex relationships between input and output elements",
+            "D": "To improve the model's ability to handle long-range dependencies"
+        },
+        "answer": "A",
+        "difficulty": 3
+    },
+    {
+        "question": "What type of function is used for positional encoding in the Transformer model?",
+        "options": {
+            "A": "Exponential functions",
+            "B": "Logarithmic functions",
+            "C": "Sine and cosine functions",
+            "D": "Polynomial functions"
+        },
+        "answer": "C",
+        "difficulty": 1
+    },
+    {
+        "question": "What is the advantage of using sinusoidal positional encodings over learned positional embeddings?",
+        "options": {
+            "A": "They allow the model to extrapolate to sequence lengths longer than seen during training",
+            "B": "They reduce the number of trainable parameters in the model",
+            "C": "They improve the computational efficiency of the model",
+            "D": "They enhance the model's ability to capture long-range dependencies"
+        },
+        "answer": "A",
+        "difficulty": 2
+    }
+]
