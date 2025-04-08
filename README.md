@@ -65,18 +65,3 @@ This project is an AI-powered personalized testing and recommendation platform f
 - 🎨 **Streamlit**: Frontend UI
 - 📁 **JSON**: Resource mapping
 
----
-
-## 🚀 Getting Started
-
-### 🔧 Prerequisites
-
-- Python 3.8+
-- pip
-
-### 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/test-recommendation-system.git
-cd test-recommendation-system
-pip install -r requirements.txt
