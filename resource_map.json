@@ -1,0 +1,73 @@
+{
+    "Subject": {
+      "Machine Learning": {
+        "Unit": {
+          "1": {
+            "Introduction to Machine Learning": {
+              "YouTube": "https://youtu.be/ukzFI9rgwfU",
+              "Course": "https://www.coursera.org/learn/machine-learning"
+            },
+            "Three Phases of ML": {
+              "YouTube": "https://youtu.be/GwIo3gDZCVQ",
+              "Course": "https://www.udemy.com/course/machinelearning/"
+            },
+            "ML Algorithms and Models": {
+              "YouTube": "https://youtu.be/IpGxLWOIZy4",
+              "Course": "https://www.edx.org/course/machine-learning-with-python-a-practical-intro"
+            },
+            "Logical, Geometric, and Probabilistic Models": {
+              "YouTube": "https://youtu.be/1gDvNfG0xjY",
+              "Course": "https://www.coursera.org/learn/intro-to-machine-learning"
+            },
+            "Underfitting and Overfitting": {
+              "YouTube": "https://youtu.be/EuBBz3bI-aA",
+              "Course": "https://www.udemy.com/course/understanding-machine-learning/"
+            },
+            "Practical Applications of ML": {
+              "YouTube": "https://youtu.be/7eh4d6sabA0",
+              "Course": "https://www.coursera.org/specializations/applied-data-science"
+            },
+            "Types of ML Problems": {
+              "YouTube": "https://youtu.be/5p1xkAJpWtw",
+              "Course": "https://www.edx.org/course/fundamentals-of-machine-learning"
+            },
+            "Classification of ML Algorithms": {
+              "YouTube": "https://youtu.be/ukzFI9rgwfU?t=720",
+              "Course": "https://www.udemy.com/course/machine-learning-classification/"
+            }
+          },
+          "2": {
+            "Introduction to Decision Trees": {
+              "YouTube": "https://youtu.be/_L39rN6gz7Y",
+              "Course": "https://www.coursera.org/lecture/ml-classification/decision-tree-learning-wN3XZ"
+            },
+            "ID3 Algorithm": {
+              "YouTube": "https://youtu.be/7VeUPuFGJHk",
+              "Course": "https://www.udemy.com/course/machine-learning-a-z/"
+            },
+            "CART Algorithm": {
+              "YouTube": "https://youtu.be/tNa99PG8hR8",
+              "Course": "https://www.edx.org/course/machine-learning"
+            },
+            "C4.5 Algorithm": {
+              "YouTube": "https://youtu.be/_L39rN6gz7Y",
+              "Course": "https://www.udemy.com/course/data-science-decision-trees/"
+            },
+            "Random Forest": {
+              "YouTube": "https://youtu.be/J4Wdy0Wc_xQ",
+              "Course": "https://www.coursera.org/learn/ensemble-methods"
+            },
+            "Overfitting and Pruning in Trees": {
+              "YouTube": "https://youtu.be/EuBBz3bI-aA",
+              "Course": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+            },
+            "Information Gain vs Gini Index": {
+              "YouTube": "https://youtu.be/8BonK9BwRW0",
+              "Course": "https://www.coursera.org/learn/machine-learning-with-python"
+            }
+          }
+        }
+      }
+    }
+  }
+  
