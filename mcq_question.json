@@ -1,0 +1,257 @@
+{
+    "Subject": {
+      "Machine Learning": {
+        "Unit": {
+          "1": {
+            "MCQs": [
+              {
+                "topic": "Introduction to Machine Learning",
+                "question": "Which of the following best defines Machine Learning?",
+                "options": {
+                  "A": "Manual data entry and processing",
+                  "B": "Explicit programming to handle every task",
+                  "C": "Systems that learn and improve from experience",
+                  "D": "Just a type of data storage"
+                },
+                "answer": "C",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "Introduction to Machine Learning",
+                "question": "Which type of learning uses labeled data?",
+                "options": {
+                  "A": "Unsupervised Learning",
+                  "B": "Reinforcement Learning",
+                  "C": "Supervised Learning",
+                  "D": "Self-learning"
+                },
+                "answer": "C",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "Three Phases of ML",
+                "question": "Which phase involves data cleaning and feature engineering?",
+                "options": {
+                  "A": "Model Building",
+                  "B": "Model Evaluation",
+                  "C": "Data Preparation",
+                  "D": "Deployment"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Three Phases of ML",
+                "question": "What is the purpose of hyperparameter tuning?",
+                "options": {
+                  "A": "Collecting new data",
+                  "B": "Improving prediction accuracy",
+                  "C": "Removing duplicates",
+                  "D": "Reducing training data size"
+                },
+                "answer": "B",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "ML Algorithms and Models",
+                "question": "Which of the following is an example of a model?",
+                "options": {
+                  "A": "Gradient Descent",
+                  "B": "Random Forest",
+                  "C": "k-Means",
+                  "D": "Linear Regression output"
+                },
+                "answer": "D",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "ML Algorithms and Models",
+                "question": "Which algorithm is commonly used for clustering?",
+                "options": {
+                  "A": "Logistic Regression",
+                  "B": "k-Means",
+                  "C": "Decision Trees",
+                  "D": "Random Forest"
+                },
+                "answer": "B",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "Logical, Geometric, and Probabilistic Models",
+                "question": "Which model is best for interpretable decision making?",
+                "options": {
+                  "A": "Neural Networks",
+                  "B": "Decision Trees",
+                  "C": "SVM",
+                  "D": "Bayesian Networks"
+                },
+                "answer": "B",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Underfitting and Overfitting",
+                "question": "Which of the following is a symptom of overfitting?",
+                "options": {
+                  "A": "Low accuracy on both training and testing data",
+                  "B": "High accuracy on both training and test data",
+                  "C": "High training accuracy but low test accuracy",
+                  "D": "Model is too simple"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Practical Applications of ML",
+                "question": "Which of these is an ML application in e-commerce?",
+                "options": {
+                  "A": "Personalized recommendations",
+                  "B": "Printing invoices",
+                  "C": "Product design",
+                  "D": "Manual data entry"
+                },
+                "answer": "A",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "Types of ML Problems",
+                "question": "Which technique is used for reducing data dimensions?",
+                "options": {
+                  "A": "Regression",
+                  "B": "Classification",
+                  "C": "Clustering",
+                  "D": "PCA"
+                },
+                "answer": "D",
+                "difficulty": "Intermediate"
+              }
+            ]
+          },
+          "2": {
+            "MCQs": [
+              {
+                "topic": "Introduction to Decision Trees",
+                "question": "What does a leaf node in a decision tree represent?",
+                "options": {
+                  "A": "A test condition",
+                  "B": "A split decision",
+                  "C": "A classification outcome",
+                  "D": "The root of the tree"
+                },
+                "answer": "C",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "ID3 Algorithm",
+                "question": "What measure does ID3 use to select the best attribute?",
+                "options": {
+                  "A": "Gini Index",
+                  "B": "Standard Deviation",
+                  "C": "Information Gain",
+                  "D": "Entropy"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "ID3 Algorithm",
+                "question": "When does the ID3 algorithm stop growing the tree?",
+                "options": {
+                  "A": "When all attributes are used",
+                  "B": "When perfect classification is achieved",
+                  "C": "Both A and B",
+                  "D": "When the root is formed"
+                },
+                "answer": "C",
+                "difficulty": "Advanced"
+              },
+              {
+                "topic": "CART Algorithm",
+                "question": "What does CART use to measure impurity in classification tasks?",
+                "options": {
+                  "A": "Information Gain",
+                  "B": "Entropy",
+                  "C": "Gini Index",
+                  "D": "Mean Absolute Error"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "CART Algorithm",
+                "question": "Which method does CART use for regression trees?",
+                "options": {
+                  "A": "Entropy",
+                  "B": "Least Squares Deviation",
+                  "C": "Gain Ratio",
+                  "D": "Cross Entropy"
+                },
+                "answer": "B",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "C4.5 Algorithm",
+                "question": "Which metric is used by C4.5 to split attributes?",
+                "options": {
+                  "A": "Gini Index",
+                  "B": "Gain Ratio",
+                  "C": "Accuracy",
+                  "D": "Loss Function"
+                },
+                "answer": "B",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Random Forest",
+                "question": "What is the primary principle behind Random Forest?",
+                "options": {
+                  "A": "Single decision tree optimization",
+                  "B": "Recursive feature elimination",
+                  "C": "Ensemble learning using multiple trees",
+                  "D": "Gradient descent across trees"
+                },
+                "answer": "C",
+                "difficulty": "Beginner"
+              },
+              {
+                "topic": "Overfitting and Pruning in Trees",
+                "question": "What is tree pruning used for?",
+                "options": {
+                  "A": "Expanding the decision tree",
+                  "B": "Handling missing data",
+                  "C": "Reducing overfitting",
+                  "D": "Improving information gain"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Information Gain vs Gini Index",
+                "question": "Which of the following statements is true?",
+                "options": {
+                  "A": "Gini Index is used in ID3",
+                  "B": "CART uses Information Gain",
+                  "C": "Gini Index prefers pure nodes",
+                  "D": "Gain Ratio is used in CART"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              },
+              {
+                "topic": "Information Gain vs Gini Index",
+                "question": "Which algorithm uses Gain Ratio as a splitting criterion?",
+                "options": {
+                  "A": "CART",
+                  "B": "ID3",
+                  "C": "C4.5",
+                  "D": "Random Forest"
+                },
+                "answer": "C",
+                "difficulty": "Intermediate"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  
