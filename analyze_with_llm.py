@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage
 import os
 
 # Set Gemini Pro API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDGzw4K-V6dd-ElUu3B_5LqEB7bMENBo_o"
+os.environ["GOOGLE_API_KEY"] = "Your gemini api key"
 
 def analyze_score_with_gemini(total_score, subject_scores, subject_total):
     model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.7)
