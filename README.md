@@ -1,67 +1,109 @@
 # 🧠 AI-Based Test Generator & Learning Recommendation System
+A smart education tool designed to automatically generate customized tests and provide personalized learning recommendations based on user performance. This system uses NLP, RAG (Retrieval-Augmented Generation), and LLMs to understand content, assess knowledge, and guide students toward mastery.
 
-This project is an AI-powered personalized testing and recommendation platform for students. It uses RAG (Retrieval-Augmented Generation) to generate subject-wise tests from notes and evaluates student performance to identify weak areas. Based on these weak topics, it recommends study resources such as PDFs, videos, and courses to help improve understanding.
+## 🚀 Features
+📄 Content Ingestion: Accepts PDFs, PPTs, Word documents, and text files as input.
 
----
+# 🧠 AI-Powered Test Generation:
 
-## 📌 Features
+Generates MCQs using extractive and abstractive methods.
 
-- ✅ Automatically generate MCQ tests using provided notes (RAG)
-- ✅ 60-question test covering 3 subjects (20 per subject)
-- ✅ Evaluate student answers and identify weak units/topics
-- ✅ Rule-based or ML-based topic weakness detection
-- ✅ Personalized resource recommendations (PDFs, videos, courses)
-- ✅ Visual feedback on subject/unit-wise performance
-- ✅ Streamlit frontend for user interaction and result visualization
+Supports difficulty-based question classification.
 
----
+### 📊 Performance Analysis:
 
-## 📁 Subjects Covered
+Evaluates test responses.
 
-- **Mathematics**
-  - Unit 1: Algebra
-  - Unit 2: Calculus
+Detects weak concepts/topics.
 
-- **Physics**
-  - Unit 1: Mechanics
-  - Unit 2: Electricity
+### 🎯 Learning Recommendation System:
 
-- **Chemistry**
-  - Unit 1: Organic Chemistry
-  - Unit 2: Physical Chemistry
+Suggests personalized topics to improve.
 
-*(These can be customized in your own dataset.)*
+Recommends video tutorials, articles, and concepts.
 
----
+### 💬 LLM-Powered Feedback:
 
-## ⚙️ How It Works
+Uses a RAG system to provide insights and explanations.
 
-1. **Test Generation:**  
-   RAG system creates questions from notes you upload.
+Optionally integrated with Gemini Pro, GPT-4, or LLaMA.
 
-2. **Student Attempts Test:**  
-   Streamlit UI shows 60 questions – 20 per subject.
+# 🛠 Tech Stack
 
-3. **Evaluation Engine:**  
-   Answers are scored per topic (subject, unit, and topic level).
+Area	Tech
+Backend	Python, FastAPI
+Frontend	Streamlit / React (based on use-case)
+LLMs	Gemini Pro / OpenAI GPT / LLaMA
+Vector DB	Chroma / FAISS
+Embeddings	Gemini Embeddings / Sentence Transformers
+Data Parsing	PyMuPDF, python-docx, python-pptx
+MCQ Generation	T5 / GPT-3.5 / Gemini Pro
+Analysis	Custom NLP pipelines, RAG
 
-4. **Weak Topic Identification:**  
-   - Option 1: Rule-based (e.g., <50% correct = weak)
-   - Option 2: ML-based (using historical performance)
+# 📂 Project Structure
+css
+Copy
+Edit
+📦AI-Test-Generator
+├── 📁data
+│   └── input_files/
+├── 📁backend
+│   └── main.py (FastAPI endpoints)
+├── 📁llm
+│   ├── summarizer.py
+│   ├── mcq_generator.py
+│   └── feedback_analyzer.py
+├── 📁rag
+│   ├── vector_store.py
+│   └── retriever.py
+├── 📁frontend
+│   └── app.py (Streamlit / React components)
+├── 📁utils
+│   └── parser.py
+├── requirements.txt
+└── README.md
 
-5. **Recommendations:**  
-   For weak topics, the system suggests:
-   - 📄 PDF Notes
-   - 🎥 Videos
-   - 📘 Online Courses
+# 🧪 Example Workflow
+Upload Content: Users upload lecture slides, notes, or textbooks.
 
----
+Generate Test: AI creates multiple-choice questions from the content.
 
-## 🧪 Tech Stack
+Take Test: Student answers questions via a web interface.
 
-- 🧠 **RAG Model**: For test generation
-- 🐍 **Python**: Core logic
-- 📊 **Pandas, scikit-learn**: Evaluation + ML classification
-- 🎨 **Streamlit**: Frontend UI
-- 📁 **JSON**: Resource mapping
+Analyze Performance: The model identifies weak areas.
+
+Get Recommendations: System suggests study material and resources.
+
+Repeat: Adaptive testing improves learning continuously.
+
+# 📌 Installation
+bash
+Copy
+Edit
+git clone https://github.com/your-username/AI-Test-Generator.git
+cd AI-Test-Generator
+pip install -r requirements.txt
+
+
+# 🧠 Future Enhancements
+Adaptive learning path generation using reinforcement learning.
+
+Gamification of tests.
+
+Integration with LMS (e.g., Moodle, Google Classroom).
+
+Support for subjective questions and evaluation.
+
+# 🤝 Contribution
+Contributions, issues, and suggestions are welcome!
+
+Fork this repo
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -am 'Add new feature')
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
 
