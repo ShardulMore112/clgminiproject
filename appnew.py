@@ -1,3 +1,6 @@
+
+# IMPORTING ALL THE ESSENTIAL LIBRARIES.
+
 import os
 import json
 import pandas as pd
@@ -33,7 +36,7 @@ def generate_pdf_report(student_name, student_id, feedback_text):
     story.append(Paragraph(f"<b>Student ID:</b> {student_id}", bold_style))
     story.append(Spacer(1, 12))
 
-    # Modify feedback text to handle ***bold markdown***
+    # code to handle the markdown files in the pdf's
     feedback_text = feedback_text.replace("***", "<b>").replace("***", "</b>")  # Converts ***text*** to bold in PDF
 
     for line in feedback_text.split("\n"):
@@ -55,7 +58,7 @@ def generate_pdf_report(student_name, student_id, feedback_text):
     buffer.seek(0)
     return buffer
 
-# Load environment variables
+# Loading Environment Variables such as  API's && Py varients
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:
@@ -99,7 +102,7 @@ if st.session_state.current_step == 'student_id':
             st.session_state.current_step = 'test'
             st.rerun()
 
-# Step 2: Test
+# Step 2: TEST QUESTION     (CN: Computer Networks, ML: Machine Learning , Q[CN] = 21, Q[ML] = 20)
 elif st.session_state.current_step == 'test':
     st.subheader(f"Step 2: Complete the Test - {st.session_state.student_name} ({st.session_state.student_id})")
     col1, col2 = st.columns(2)
